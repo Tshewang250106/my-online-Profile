@@ -1,0 +1,52 @@
+body {
+            background-color: #0A0C16;
+            color: #E2E8F0;
+            overflow-x: hidden;
+        }
+        
+        /* Custom Glowing Accents */
+        .text-gradient {
+            background: linear-gradient(135deg, #00f2fe 0%, #4facfe 50%, #e040fb 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .gradient-button {
+            background: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);
+            color: #0A0C16;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 15px rgba(0, 242, 254, 0.3);
+        }
+
+        .gradient-button:hover {
+            box-shadow: 0 0 25px rgba(0, 242, 254, 0.6);
+            transform: translateY(-2px);
+        }
+
+        .glow-avatar {
+            box-shadow: 0 0 40px rgba(79, 172, 254, 0.25);
+        }
+
+        .glass-card {
+            background: rgba(18, 22, 41, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .glass-card:hover {
+            border-color: rgba(0, 242, 254, 0.4);
+            box-shadow: 0 10px 30px -10px rgba(0, 242, 254, 0.2);
+        }
+
+        .btn-outline {
+            border: 2px solid #00f2fe;
+            color: #00f2fe;
+            transition: all 0.3s ease;
+        }
+
+        .btn-outline:hover {
+            background: rgba(0, 242, 254, 0.1);
+            box-shadow: 0 0 20px rgba(0, 242, 254, 0.3);
+            transform: translateY(-2px);
+        }
